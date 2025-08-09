@@ -11,6 +11,15 @@ A Python-based **career guidance tool** that recommends personalized learning pa
 - **Beginner Friendly** – Simple CLI (Command-Line Interface) design.
 
 ---
+## 🖥️ Tech Stack
+- **Programming Language:** Python 🐍  
+- **GUI Framework:** Tkinter (for desktop interface)  
+- **Widget Styling:** ttk (Themed Tkinter Widgets)  
+- **Web Integration:** `webbrowser` module (to open links in default browser)  
+- **Data Handling:** Hardcoded role-based learning paths in Python lists/tuples  
+- **Version Control:** Git & GitHub  
+
+---
 
 ## 📂 Project Structure
     CareerHelper-Personalized-Learning-Path-Recommender/
