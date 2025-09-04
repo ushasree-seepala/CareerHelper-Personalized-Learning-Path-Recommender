@@ -1,19 +1,21 @@
-# CareerHelper – Personalized Learning Path Recommender
+# CareerHelper – Personalized Learning Path Recommender 🎯
 
-A Python-based **career guidance tool** that recommends personalized learning paths for various IT and government job roles. It provides **YouTube tutorial links** and **official practice question resources**, helping students and job seekers prepare effectively.
+A Python-based career guidance tool that recommends personalized learning paths for various **IT and government job roles**.  
+It provides **YouTube tutorial links** and **official practice question resources**, helping students and job seekers prepare effectively.
 
 ---
 
 ## 🚀 Features
-- **Career Role Selection** – Choose from multiple IT and government job options.
-- **Personalized Learning Paths** – Get structured step-by-step learning guidance.
-- **Free Resources** – Includes YouTube tutorials and official practice sites.
-- **Beginner Friendly** – Simple CLI (Command-Line Interface) design.
+- **Career Role Selection** – Choose from multiple IT and government job options.  
+- **Personalized Learning Paths** – Get structured step-by-step learning guidance.  
+- **Free Resources** – Includes YouTube tutorials and official practice sites.  
+- **Beginner Friendly** – Simple **GUI (Tkinter desktop interface)**.  
 
 ---
+
 ## 🖥️ Tech Stack
 - **Programming Language:** Python 🐍  
-- **GUI Framework:** Tkinter (for desktop interface)  
+- **GUI Framework:** Tkinter  
 - **Widget Styling:** ttk (Themed Tkinter Widgets)  
 - **Web Integration:** `webbrowser` module (to open links in default browser)  
 - **Data Handling:** Hardcoded role-based learning paths in Python lists/tuples  
@@ -22,46 +24,40 @@ A Python-based **career guidance tool** that recommends personalized learning pa
 ---
 
 ## 📂 Project Structure
-    CareerHelper-Personalized-Learning-Path-Recommender/
-    │── main.py              # Main program file
-    │── README.md            # Project documentation
-    │── .replit              # (Optional) Replit run configuration
-    │── .gitignore           # Git ignore rules
-    │── pyproject.toml       # (Optional) Python dependencies
-    │── uv.lock              # (Optional) Dependency lock file
+```
+CareerHelper-Personalized-Learning-Path-Recommender/
+│── main.py          # Entry point (run this file)
+│── gui.py           # GUI setup and event handling
+│── recommender.py   # Role-based recommendations
+│── utils.py         # Helper functions (e.g., open_url)
+│── README.md        # Documentation
+│── .replit          # (Optional) Replit run configuration
+│── .gitignore       # Git ignore rules
+│── pyproject.toml   # (Optional) Dependency file
+│── uv.lock          # (Optional) Dependency lock file
+```
 
 ---
 
 ## 🛠 How to Run
 
-1. **Clone the repository**
-    git clone https://github.com/ushasree-seepala/CareerHelper-Personalized-Learning-Path-Recommender.git  
-    cd CareerHelper-Personalized-Learning-Path-Recommender
+Clone the repository:
+```bash
+git clone https://github.com/ushasree-seepala/CareerHelper-Personalized-Learning-Path-Recommender.git
+cd CareerHelper-Personalized-Learning-Path-Recommender
+```
 
-2. **Run the program**
-    python main.py
+Run the program:
+```bash
+python main.py
+```
 
----
-
-## 📌 Example Output
-    Welcome to CareerHelper!
-    Select a career path:
-    1. Software Developer
-    2. Data Analyst
-    3. Civil Services
-    4. Banking
-    Enter your choice: 1
-
-    Recommended Learning Path:
-    - Learn Python basics
-    - Data Structures & Algorithms
-    - System Design Fundamentals
-    ...
+A **Tkinter window** will open where you can select your career path and view recommended resources.
 
 ---
 
 ## 👩‍💻 Author
 **Usha Sree Seepala**  
 
-- LinkedIn: [Usha Sree Seepala](https://www.linkedin.com/in/ushasree-seepala-359190264/)  
-- GitHub: [ushasree-seepala](https://github.com/ushasree-seepala)
+- LinkedIn: [Usha Sree Seepala](https://www.linkedin.com/)  
+- GitHub: [ushasree-seepala](https://github.com/ushasree-seepala)  
