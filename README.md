@@ -18,18 +18,19 @@ It provides YouTube tutorial links and official practice question resources, hel
 
 📂 Project Structure
 CareerHelper-Personalized-Learning-Path-Recommender/
-│── main.py              # Entry point (run this file, from main1.py)
+│── main.py              
 │── backup/
-│    └── main_old.py     # Old version of main.py kept as backup
+│    └── main_old.py     
 │── src/
-│    ├── gui.py          # GUI setup and event handling
-│    ├── recommender.py  # Role-based recommendations
-│    └── utils.py        # Helper functions (e.g., open_url)
-│── README.md            # Documentation
-│── .replit              # (Optional) Replit run configuration
-│── .gitignore           # Git ignore rules
-│── pyproject.toml       # (Optional) Dependency file
-│── uv.lock              # (Optional) Dependency lock file
+│    ├── gui.py          
+│    ├── recommender.py  
+│    └── utils.py        
+│── README.md            
+│── .replit             
+│── .gitignore           
+│── pyproject.toml  
+│── uv.lock              
+
 
 🛠 How to Run
 Clone the repository:
